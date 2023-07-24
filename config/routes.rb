@@ -5,6 +5,8 @@ Rails.application.routes.draw do
   get 'about-me', to: 'pages#about'
   get 'contact', to: 'pages#contact'
 
+  post 'blogs', to: 'blogs#create'
+
   resources :blogs
   
   root to: 'pages#home'
