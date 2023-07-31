@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>ProjectPortfolio</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title><%= @page_title %></title>
+
+    <meta name="keywords" content=<%= @seo_keywords %> />
+
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -13,6 +15,14 @@
   <body>
     <p class="notice"><%= notice %></p>
     <p class="alert"><%= alert %></p>
+
+    <div>
+    <div><%= link_to "Home", root_path %></div>
+    <div><%= link_to "About", about_me_path %><div>
+    <div><%= link_to "Contact", contact_path %></div>
+    <div><%= link_to "Blogs", blogs_path %></div>
+    <div><%= link_to "Portfolios", portfolios_path %></div>
+    </div>
 
     <% if current_user %>
       <%= link_to "logout", destroy_user_session_path %>
