@@ -18,12 +18,7 @@
 
   <%= render "shared/nav", location: 'top' %>
 
-    <% if current_user %>
-      <%= link_to "logout", destroy_user_session_path %>
-    <% else %>
-      <%= link_to "register", new_user_registration_path %>
-      <%= link_to "login", new_user_session_path %>
-    <% end %>  
+  <%= login_helper %> 
 
     <%= yield %>
   </body>
