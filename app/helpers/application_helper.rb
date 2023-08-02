@@ -9,4 +9,10 @@ module ApplicationHelper
             (link_to "login", new_user_session_path)
         end
     end
+
+    def source_helper
+        if session[:session]
+            "Thanks for visiitg me from #{session[:source]}"
+        end
+    end
 end
