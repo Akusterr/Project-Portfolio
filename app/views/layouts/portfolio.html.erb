@@ -16,8 +16,11 @@
 
   <body>
 
+  <%= render "shared/application_nav" %> 
+
    <!-- start of navigation -->
-    <div class="collapse bg-inverse" id="navbarHeader">
+
+    <%# <div class="collapse bg-inverse" id="navbarHeader">
       <div class="container">
         <div class="row">
           <div class="col-sm-8 py-4">
@@ -43,11 +46,13 @@
           <span class="navbar-toggler-icon"></span>
         </button>
       </div>
-    </div>
+    </div> %>
+
     <!-- end of navigation -->
 
     <!-- start of masthead -->
-    <section class="jumbotron text-center">
+
+    <%# <section class="jumbotron text-center">
       <div class="container">
         <h1 class="jumbotron-heading">Album example</h1>
         <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don't simply skip over it entirely.</p>
@@ -56,31 +61,16 @@
           <a href="#" class="btn btn-secondary">Secondary action</a>
         </p>
       </div>
-    </section>
+    </section> %>
+
     <!-- end of masthead -->
-
-
-
-  <%= render "shared/nav", location: 'top' %>
-
-
-    <%= login_helper %>  
+ 
 
     <%= yield %>
 
     
 
-    <!-- start of footer -->
-    <footer class="text-muted">
-      <div class="container">
-        <p class="float-right">
-          <a href="#">Back to top</a>
-        </p>
-        <p>Album example is &copy; Bootstrap, but please download and customize it for yourself!</p>
-        <p>New to Bootstrap? <a href="../../">Visit the homepage</a> or read our <a href="../../getting-started/">getting started guide</a>.</p>
-      </div>
-    </footer>
-    <!-- end of footer -->
+   <%= render 'shared/portfolio_footer' %>
 
   </body>
 </html>
