@@ -1,10 +1,9 @@
-<h1>Hello, <%= current_user.first_name if current_user %>% </h1>
-<p>Full Stack Software Engineer</p>
+<div class="inner cover">
+    <h1 class="cover-heading">Welcome</h1>
+    <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
+    <%# <p class="lead">
+        <a href="#" class="btn btn-lg btn-secondary">Learn more</a>
+    </p> %>
+</div>
 
-<h1>Posts</h1>
-<%= @posts.inspect %>
 
-<h1>Skills</h1>
-<%= @skills.inspect %>
-
-<p><%= current_user.class %></p>
