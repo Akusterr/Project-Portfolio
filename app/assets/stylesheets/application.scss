@@ -202,10 +202,29 @@ body {
     z-index: -100;   
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
-    background: image-url('teacup1.jpg') no-repeat;
+    background: image-url('geo-background.jpg') no-repeat;
     background-size: cover;
 }
 
 .app-footer {
     color: black;
+}
+
+.about-me-intro {
+    color: whitesmoke;
+}
+
+.colored {
+    background-color: rgba(116, 116, 116, 0.8);
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.contact {
+
+    color: whitesmoke;
+    background-color: rgba(116, 116, 116, 0.8);
+    border-radius: 5px;
+    padding: 20px;
+
 }
