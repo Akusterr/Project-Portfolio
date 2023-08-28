@@ -80,6 +80,7 @@ body {
 .nav-masthead .nav-link {
     padding: .25rem 1;
     font-weight: bold;
+    font-family: Cambria;
     color: rgba(255, 255, 255, .5);
     background-color: transparent;
     border-bottom: .25rem solid transparent;
@@ -210,12 +211,21 @@ body {
     color: black;
 }
 
-.about-me-intro {
+.about-me-intro-1 {
     color: whitesmoke;
+    font-family: cambria;
+    font-size: 25px;
+}
+
+.about-me-intro-2 {
+    color: whitesmoke;
+    font-family: cambria;
+    font-size: 15px;
 }
 
 .colored {
-    background-color: rgba(116, 116, 116, 0.8);
+    font-family: cambria;
+    background-color: rgba(150, 138, 242, 0.8);
     border-radius: 5px;
     padding: 20px;
 }
@@ -223,8 +233,21 @@ body {
 .contact {
 
     color: whitesmoke;
-    background-color: rgba(116, 116, 116, 0.8);
+    font-family: cambria;
+    background-color: rgba(150, 138, 242, 0.8);
     border-radius: 5px;
     padding: 20px;
 
+}
+
+.cover-heading {
+    color: whitesmoke;
+    font-family: cambria;
+}
+
+.inner-cover {
+    font-family: Cambria;
+    font-size: 30px;
+    background-color: rgba(150, 138, 242, 0.8);
+    border-radius: 5px;
 }
