@@ -63,7 +63,7 @@ group :development do
 
   gem 'bootstrap', '~> 5.3.0.alpha3'
 
-  ruby "2.7.4"
+  ruby "3.1.4"
   
   # Add speed badges [https://github.com/MiniProfiler/rack-mini-profiler]
   # gem "rack-mini-profiler"
